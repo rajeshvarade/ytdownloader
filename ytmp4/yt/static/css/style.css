@@ -2,3 +2,9 @@
     background: rgb(218,33,114);
     background: radial-gradient(circle, rgba(218,33,114,1) 0%, rgba(219,116,27,1) 23%, rgba(160,21,206,1) 100%);
 }
+#head-main{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+}
