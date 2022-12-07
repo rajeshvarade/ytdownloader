@@ -6,8 +6,9 @@ from django.http import HttpResponse
 def home(request):
     if request.method == "POST":
       link = request.POST['link']
-      print(link)
-      return render(request, "base.html")
+      details = YouTube(link)
+      video_title = details.title
+      return render(request, "base.html",{"title":video_title})
     
     return render(request, "base.html")
     
